@@ -23,11 +23,11 @@
           <param name="dotNetCoverage.PartCover.platformBitness" value="x86" />
           <param name="dotNetCoverage.PartCover.platformVersion" value="v2.0" />
           <param name="dotNetCoverage.dotCover.home.path" value="%teamcity.tool.JetBrains.dotCover.CommandLineTools.DEFAULT%" />
-          <param name="msbuild_version" value="14.0" />
+          <param name="msbuild_version" value="4.5" />
           <param name="run-platform" value="x86" />
-          <param name="targets" value="Clean" />
+          <param name="targets" value="BuildAll" />
           <param name="teamcity.step.mode" value="default" />
-          <param name="toolsVersion" value="14.0" />
+          <param name="toolsVersion" value="none" />
         </parameters>
       </runner>
       <runner id="RUNNER_2" name="" type="VS.Solution">
