@@ -10,7 +10,7 @@ namespace InteractiveMap.Controllers
     {
         // GET: Renderings
         public ActionResult Index()
-        {
+        { 
             return View("Map");
         }
     }
