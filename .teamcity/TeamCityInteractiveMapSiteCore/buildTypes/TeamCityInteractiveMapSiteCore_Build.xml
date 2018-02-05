@@ -25,7 +25,6 @@
           <param name="dotNetCoverage.dotCover.home.path" value="%teamcity.tool.JetBrains.dotCover.CommandLineTools.DEFAULT%" />
           <param name="msbuild_version" value="4.5" />
           <param name="run-platform" value="x86" />
-          <param name="targets" value="BuildAll" />
           <param name="teamcity.step.mode" value="default" />
           <param name="toolsVersion" value="none" />
         </parameters>
